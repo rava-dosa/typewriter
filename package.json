@@ -1,0 +1,30 @@
+{
+  "name": "typewriter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "index": "electron .",
+    "package-linux": "electron-packager . electron-tutorial-app --overwrite --asar=true --platform=linux --arch=x64 --prune=true --out=release-builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rava-dosa/typewriter.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "Apoorva Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rava-dosa/typewriter/issues"
+  },
+  "homepage": "https://github.com/rava-dosa/typewriter#readme",
+  "dependencies": {
+    "electron": "^4.1.4"
+  },
+  "devDependencies": {
+    "electron-packager": "^13.1.1"
+  }
+}
